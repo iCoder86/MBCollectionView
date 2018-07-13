@@ -14,6 +14,8 @@
 		E6C4CD8A20F72B6400CD20C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C4CD8820F72B6400CD20C0 /* LaunchScreen.storyboard */; };
 		E6C4CD9220F75AF500CD20C0 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C4CD9120F75AF500CD20C0 /* MyCell.swift */; };
 		E6C4CD9420F7657300CD20C0 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C4CD9320F7657300CD20C0 /* MyCell.xib */; };
+		E6CA55AE20F8BB2800AA5776 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CA55AD20F8BB2800AA5776 /* HeaderView.swift */; };
+		E6CA55B020F8BB3200AA5776 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CA55AF20F8BB3200AA5776 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E6C4CD8B20F72B6400CD20C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6C4CD9120F75AF500CD20C0 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		E6C4CD9320F7657300CD20C0 /* MyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		E6CA55AD20F8BB2800AA5776 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E6CA55AF20F8BB3200AA5776 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				E6C4CD8620F72B6400CD20C0 /* Assets.xcassets */,
 				E6C4CD8820F72B6400CD20C0 /* LaunchScreen.storyboard */,
 				E6C4CD8B20F72B6400CD20C0 /* Info.plist */,
+				E6CA55AD20F8BB2800AA5776 /* HeaderView.swift */,
+				E6CA55AF20F8BB3200AA5776 /* FooterView.swift */,
 			);
 			path = DynamicCollectionView;
 			sourceTree = "<group>";
@@ -145,6 +151,8 @@
 				E6C4CD9220F75AF500CD20C0 /* MyCell.swift in Sources */,
 				E6C4CD8220F72B5F00CD20C0 /* ViewController.swift in Sources */,
 				E6C4CD8020F72B5F00CD20C0 /* AppDelegate.swift in Sources */,
+				E6CA55B020F8BB3200AA5776 /* FooterView.swift in Sources */,
+				E6CA55AE20F8BB2800AA5776 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +299,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9F62BE42LA;
 				INFOPLIST_FILE = DynamicCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +320,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 9F62BE42LA;
 				INFOPLIST_FILE = DynamicCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
