@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A18EFFB20FA2CA40044F338 /* CustomCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A18EFFA20FA2CA40044F338 /* CustomCollectionViewLayout.swift */; };
 		E6C4CD8020F72B5F00CD20C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C4CD7F20F72B5F00CD20C0 /* AppDelegate.swift */; };
 		E6C4CD8220F72B5F00CD20C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C4CD8120F72B5F00CD20C0 /* ViewController.swift */; };
 		E6C4CD8520F72B5F00CD20C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C4CD8320F72B5F00CD20C0 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A18EFFA20FA2CA40044F338 /* CustomCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewLayout.swift; sourceTree = "<group>"; };
 		E6C4CD7C20F72B5F00CD20C0 /* DynamicCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C4CD7F20F72B5F00CD20C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6C4CD8120F72B5F00CD20C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		E6C4CD7E20F72B5F00CD20C0 /* DynamicCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				2A18EFFA20FA2CA40044F338 /* CustomCollectionViewLayout.swift */,
 				E6C4CD7F20F72B5F00CD20C0 /* AppDelegate.swift */,
 				E6C4CD8120F72B5F00CD20C0 /* ViewController.swift */,
 				E6C4CD9120F75AF500CD20C0 /* MyCell.swift */,
@@ -152,6 +155,7 @@
 				E6C4CD8220F72B5F00CD20C0 /* ViewController.swift in Sources */,
 				E6C4CD8020F72B5F00CD20C0 /* AppDelegate.swift in Sources */,
 				E6CA55B020F8BB3200AA5776 /* FooterView.swift in Sources */,
+				2A18EFFB20FA2CA40044F338 /* CustomCollectionViewLayout.swift in Sources */,
 				E6CA55AE20F8BB2800AA5776 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +310,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MB.DynamicCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c1e5114a-8f8e-41ff-b605-d0d270aa2bf0";
+				PROVISIONING_PROFILE = "d74c576a-fcb8-47ca-83eb-ba26338d3aa6";
 				PROVISIONING_PROFILE_SPECIFIER = WildCardPP;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,7 +331,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MB.DynamicCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c1e5114a-8f8e-41ff-b605-d0d270aa2bf0";
+				PROVISIONING_PROFILE = "d74c576a-fcb8-47ca-83eb-ba26338d3aa6";
 				PROVISIONING_PROFILE_SPECIFIER = WildCardPP;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
